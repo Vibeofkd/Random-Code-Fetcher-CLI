@@ -1,18 +1,28 @@
 # Quote Fetcher CLI
 
-A simple Node.js CLI project to fetch, view, and add motivational quotes.
+# Quote Fetcher CLI
 
-## Concepts Demonstrated
-- Node.js CLI interaction using `readline`
-- Event loop & asynchronous execution
-- Non-blocking I/O using `fs.readFile` and `fs.writeFile`
-- Modules (`quotes.js`)
-- JSON file data storage
+An interactive **Node.js Command-Line Interface (CLI)** project built during my internship to practice:
+- Node.js event loop
+- Non-blocking I/O (`fs` module)
+- Basic scripting
+- CLI interaction with `readline`
+- JSON file storage
+- Module exports and imports
 
-## How to Run
-1. Make sure Node.js is installed
-2. Clone the repo
-3. Run the program:
+This project demonstrates Week 2 of my Node.js learning journey.
+
+---
+
+## 🚀 Features
+- 🎲 Get a random motivational quote
+- ➕ Add your own custom quotes
+- 📋 View all stored quotes
+- 💾 Quotes saved in a JSON file (non-blocking file operations)
+
+---
+
+## 📂 Project Structure
 
 ```bash
 node index.js
